@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    padding: 50px 20px;
+    text-align: center;
+    color: #ffffff95;
+}
+header {
+  background-color: #1f1f2c;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffffb4;
+}
+nav ul > li {
+    list-style: none;
+}
+nav ul > li i {
+    padding-right: 10px;
+}
+.header__logo img {
+  width: 200px;
+  height: auto;
+}
+.header__title i {
+    color: #fff;
+}
+main {
+    background-image: url('img/mingwei-lim.jpeg');
+}
