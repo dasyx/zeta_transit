@@ -71,11 +71,6 @@ nav ul>li i {
   color: #083F5F90;
 }
 
-.container__intro img {
-  width: 100%;
-  height: 1000px;
-}
-
 .container__history {
   display: flex;
   flex-direction: column;
@@ -85,6 +80,7 @@ nav ul>li i {
 
 .container__img {
   position: relative;
+  background-color: #000;
 }
 
 .container__img img {
@@ -92,7 +88,7 @@ nav ul>li i {
   height: auto;
 }
 
-.container__join-button {
+.container__join {
   position: absolute;
   bottom: 10px;
   display: flex;
@@ -101,7 +97,7 @@ nav ul>li i {
   width: 100%;
 }
 
-.container__join-button h4 {
+.container__join h4 {
   color: #fff;
   padding: 0 20px;
   border-radius: 5px;
@@ -109,7 +105,7 @@ nav ul>li i {
   text-align: center;
 }
 
-.container__join-button button {
+.container__join button {
   background-color: #1a73e8;
   color: white;
   border: none;
@@ -120,7 +116,7 @@ nav ul>li i {
   margin-bottom: 20px;
 }
 
-.container__join-button button:hover {
+.container__join button:hover {
   background-color: #1565c0;
 }
 
