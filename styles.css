@@ -46,13 +46,23 @@ nav ul>li i {
   align-content: center;
 }
 
-.container__intro {
-  margin: auto;
+.container__intro--title {
+  display: flex;
+  flex-direction: column;
 }
 
-.container__intro h2 {
+.container__intro--title h2 i,
+.container__intro--title h3 i {
+  color: #1f1f2c;
+  padding: 0 10px;
+  opacity: .9;
+  font-size: .8em;
+}
+
+.container__intro h2,
+.container__intro h3 {
   text-align: center;
-  padding: 60px;
+  padding: 30px 0;
 }
 
 .container__intro img {
@@ -72,9 +82,9 @@ nav ul>li i {
 }
 
 .image-wrapper img {
+  display: block;
   width: 100%;
   height: auto;
-  display: block;
 }
 
 .join-button {
@@ -92,4 +102,18 @@ nav ul>li i {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .container__intro h2 {
+    text-align: left;
+    padding: 30px;
+    margin-left: 50px;
+  }
+
+  .container__intro h3 {
+    text-align: right;
+    padding-bottom: 30px;
+    margin-right: 150px;
+  }
 }
