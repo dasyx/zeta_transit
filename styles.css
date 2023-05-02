@@ -75,7 +75,6 @@ nav ul>li i {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 .container__img {
@@ -85,7 +84,8 @@ nav ul>li i {
 
 .container__img img {
   width: 100%;
-  height: auto;
+  height: 350px;
+  background-size: cover;
 }
 
 .container__join {
@@ -101,7 +101,7 @@ nav ul>li i {
   color: #fff;
   padding: 0 20px;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -113,7 +113,6 @@ nav ul>li i {
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
-  margin-bottom: 20px;
 }
 
 .container__join button:hover {
@@ -131,5 +130,16 @@ nav ul>li i {
     text-align: right;
     padding-bottom: 30px;
     margin-right: 150px;
+  }
+
+  .container__img img {
+    width: 100%;
+    height: 800px;
+  }
+  .container__join h4 {
+    margin-bottom: 30px;
+  }
+  .container__join button {
+    margin-bottom: 20px;
   }
 }
