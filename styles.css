@@ -10,6 +10,7 @@ h1 {
   text-align: center;
   color: #ffffff;
   background-image: url('img/mingwei-lim.jpeg');
+  background-color: #000;
 }
 
 header {
@@ -51,18 +52,23 @@ nav ul>li i {
   flex-direction: column;
 }
 
+.container__intro h2,
+.container__intro h3 {
+  color: #1f1f2c;
+  text-align: center;
+  padding: 30px 0;
+}
+
 .container__intro--title h2 i,
 .container__intro--title h3 i {
-  color: #1f1f2c;
-  padding: 0 10px;
+  color: #083F5F;
+  padding: 20px;
   opacity: .9;
   font-size: .8em;
 }
 
-.container__intro h2,
-.container__intro h3 {
-  text-align: center;
-  padding: 30px 0;
+.container__intro--title span {
+  color: #083F5F90;
 }
 
 .container__intro img {
@@ -77,31 +83,45 @@ nav ul>li i {
   align-items: center;
 }
 
-.image-wrapper {
+.container__img {
   position: relative;
 }
 
-.image-wrapper img {
-  display: block;
+.container__img img {
   width: 100%;
   height: auto;
 }
 
-.join-button {
+.container__join-button {
   position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  padding-bottom: 30px;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
-.join-button button {
-  padding: 15px 30px;
-  background-color: #333;
+.container__join-button h4 {
   color: #fff;
+  padding: 0 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container__join-button button {
+  background-color: #1a73e8;
+  color: white;
   border: none;
+  padding: 10px 20px;
+  font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.container__join-button button:hover {
+  background-color: #1565c0;
 }
 
 @media only screen and (min-width: 768px) {
